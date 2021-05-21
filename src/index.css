@@ -28,8 +28,6 @@ body {
   background-color: #373af5;
 }
 
-.container {
-}
 .container__d-flex {
   display: flex;
   max-width: 1440px;

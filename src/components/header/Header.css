@@ -1,0 +1,22 @@
+.header__title {
+  font-size: 102px;
+  line-height: 122px;
+
+  text-align: center;
+
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 65px;
+}
+
+.header__text-lvl1,
+.header__text-lvl2 {
+  position: relative;
+}
+.header__text-lvl1 {
+  right: 182px;
+}
+.header__text-lvl2 {
+  left: 182px;
+}

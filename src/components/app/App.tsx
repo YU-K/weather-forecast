@@ -4,13 +4,13 @@ import Header from "../header/Header";
 
 import "./App.css";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
       <Container />
     </div>
   );
-}
+};
 
 export default App;

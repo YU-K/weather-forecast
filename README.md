@@ -1,5 +1,7 @@
 ### Weather Forecast App
 
+[Ссылка на проект... ](https://yu-k.github.io/weather-forecast/ )
+
 Не реализовано
 
 - получение прогноза погоды на 7 дней

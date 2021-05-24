@@ -2,17 +2,21 @@ import React from "react";
 
 import "./SelectCity.css";
 
-const SelectCity = () => {
+interface handleChangeProp {
+  handleChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+}
+
+const SelectCity: React.FC<handleChangeProp> = ({ handleChange }) => {
   return (
-    <select className="select" name="select">
+    <select className="select" name="select" onChange={handleChange}>
       <option value="" disabled selected hidden>
         Select city
       </option>
-      <option value="samara">Samara</option>
-      <option value="tolyatti">Tolyatti</option>
-      <option value="saratov">Saratov</option>
-      <option value="kazan">Kazan</option>
-      <option value="krasnodar">Krasnodar</option>
+      <option>Samara</option>
+      <option>Tolyatti</option>
+      <option>Saratov</option>
+      <option>Kazan</option>
+      <option>Krasnodar</option>
     </select>
   );
 };

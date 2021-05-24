@@ -16,7 +16,8 @@
 .weather-block__title,
 .empty-data-block__text,
 .header__text-lvl1,
-.header__text-lvl2 {
+.header__text-lvl2,
+.weather-card__title {
   font-family: "Ubuntu Bold";
 }
 
@@ -54,10 +55,15 @@ body {
   margin-bottom: 32px;
 }
 
+.weather-block__title,
 .select {
-  font-family: "Ubuntu Regular", serif;
   font-size: 16px;
   line-height: 24px;
+}
+
+.select {
+  font-family: "Ubuntu Regular", serif;
+
   color: #8083a4;
   padding: 12px 143px 12px 16px;
   background: rgba(128, 131, 164, 0.06);
